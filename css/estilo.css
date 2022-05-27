@@ -54,3 +54,19 @@ p{
     text-indent: 40px;
 }
 
+.top_jogadores > p{
+    
+  font-size: 2em;
+}
+
+.pinta_botao{
+   width: 150px;
+   heigth: 50px;
+   background-image: linear-gradient(#FFE4E1);
+   margin: auto;
+}
+.botao{
+   padding: top 15px;
+  
+}
+
