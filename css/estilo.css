@@ -20,6 +20,48 @@ body{
   text-align: center;
 }
 
+.itens_menu a{
+  font-size: 1.2em;
+}
+
+.itens_menu a:link{
+  
+    color: #fff:
+    text-decoration: none;
+ }
+
+.itens_menu a:visited {
+    color: #FFF
+    text-decoration: none;
+ }
+ 
+ /* mouse over link */
+.itens_menu a:hover {
+    color: #fff;
+    padding: 0.8%;
+    background-color: rgba(105,105,105,0.3);
+    text-decoration: none;
+    border-radius: 15%;
+ }
+
+ /* selected link */
+.itens_menu a:active {
+    color: #FFF
+    text-decoration: none;
+ }
+
+section a:link{
+  color: #696969;
+}
+
+section a:visited {
+  color: #FFF;
+}
+
+section a:hover{
+  color: #696969;
+}
+
 .fundo_diferente{
   background-image: linear-gradient(to right, #1C1C1C);
 }
@@ -73,6 +115,11 @@ p{
 footer > p{
   font-size: 1.2em;
   text-align: center;
+}
+
+section{
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 
