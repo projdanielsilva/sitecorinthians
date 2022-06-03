@@ -24,17 +24,11 @@ body{
   font-size: 1.2em;
 }
 
-.itens_menu a:link{
-  
-    color: #fff:
-    text-decoration: none;
- }
 
-.itens_menu a:visited {
-    color: #FFF
+.itens_menu a:link, .itens_menu a:visited{
+    color: #fff;
     text-decoration: none;
  }
- 
  /* mouse over link */
 .itens_menu a:hover {
     color: #fff;
@@ -46,7 +40,7 @@ body{
 
  /* selected link */
 .itens_menu a:active {
-    color: #FFF
+    color: #FFF;
     text-decoration: none;
  }
 
@@ -106,10 +100,20 @@ p{
    height: 50px;
    background-image: linear-gradient(#FFE4E1);
    margin: auto;
+   padding: 0.8%;
+  text-align: center;  
+  padding-top: 3%;
+
 }
-.botao{
-   padding: top 15px;
-  
+
+.pinta_botao:hover{
+  background-color: rgba(105,105,105,0.3);
+}
+
+.pinta_botao a:link, .pinta_botao :visited{
+  text-align: center;
+  text-decoration: none ;    
+
 }
 
 footer > p{
@@ -120,6 +124,10 @@ footer > p{
 section{
   margin-top: 2%;
   margin-bottom: 2%;
+}
+
+.escondido{
+  display: none;
 }
 
 
