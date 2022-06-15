@@ -81,6 +81,7 @@ figure{
 h1{
     text-align: center;
     color:#FFFAFA;
+    font-size: 3em;
 }
 
 p{
@@ -128,6 +129,20 @@ section{
 
 .escondido{
   display: none;
+}
+
+.direita{
+  float:right;
+  width: 40%;
+  margin-left: 2%;
+
+}
+
+.esquerda{
+  float: left;
+  width: 30%;
+  
+  margin-right: 2%;
 }
 
 
