@@ -13,6 +13,7 @@ body{
 .menu,footer{
   background-color: rgba(105,105,105,0.3);
   padding: 1.5%;
+
 }
 
 .itens_menu{
@@ -82,6 +83,7 @@ h1{
     text-align: center;
     color:#FFFAFA;
     font-size: 3em;
+    font-family: 'Fredoka One';
 }
 
 p{
