@@ -13,6 +13,7 @@ body{
 .menu,footer{
   background-color: rgba(105,105,105,0.3);
   padding: 1.5%;
+  font-family: 'Righteous', cursive;
 
 }
 
@@ -83,20 +84,22 @@ h1{
     text-align: center;
     color:#FFFAFA;
     font-size: 3em;
-    font-family: 'Fredoka One';
+    font-family: 'Alfa Slab One', cursive;
 }
 
 h2{
   text-align: center;
-  color: black;
+  color: #FFFAFA;
   font-size: 1.5em;
   margin-bottom: 2%;
+  font-family: 'Alfa Slab One', cursive;
 
 p{
     font-size: 1.4rem;
     color:#FFFAFA;
     text-align: justify;
     text-indent: 40px;
+    font-family: 'Kanit', sans-serif
 }
 
 .top_jogadores > p{
