@@ -28,7 +28,7 @@ body{
 
 
 .itens_menu a:link, .itens_menu a:visited{
-  border: 5px solid #FFFFFF;
+  border: 3px solid #FFFFFF;
   color:	#FFFFFF;
   padding: 15px 30px;
   text-align: center;
@@ -229,6 +229,8 @@ audio::-webkit-media-controls-panel{
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-family: 'Mukta', sans-serif;
+
   }
 
   input[type=text], select, textarea, input[type=tel], input[type=email] {
@@ -237,6 +239,7 @@ audio::-webkit-media-controls-panel{
     border: 1px solid rgb(230, 230, 230);
     border-radius: 15px;
     resize: vertical;
+    font-family: 'Mukta', sans-serif;
   }
  
 
@@ -252,5 +255,47 @@ width: 75%;
 float: left;
 margin-top: 6px;
 }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=submit] {
+  background-color: #8B0000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  font-weight: bolder;
+ 
+}
+
+.botaoform{
+  margin-top: 3%;
+}
+
+
+@media screen and (max-width:450px) {
+
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+   
+  }
+
+ 
+
+  
+}
+ 
+
 
 
