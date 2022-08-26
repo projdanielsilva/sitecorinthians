@@ -28,7 +28,7 @@ body{
 
 
 .itens_menu a:link, .itens_menu a:visited{
-  border: 3px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   color:	#FFFFFF;
   padding: 15px 30px;
   text-align: center;
@@ -216,7 +216,7 @@ audio::-webkit-media-controls-panel{
 
   @font-face {
    font-family: specimen/Righteous?category=Display;
-   src: url(://fonts.google.com/specimen/Righteous?category=Display);
+   src:url(://fonts.google.com/specimen/Righteous?category=Display);
   }
 
   .borda_form{
@@ -263,7 +263,7 @@ margin-top: 6px;
 }
 
 input[type=submit] {
-  background-color: #8B0000;
+  background-color: #ff0000;
   color: white;
   padding: 12px 20px;
   border: none;
