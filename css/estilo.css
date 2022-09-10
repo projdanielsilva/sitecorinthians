@@ -1,3 +1,8 @@
+@font-face {
+  font-family: specimen/Righteouscategory=Display;
+  src:url(fontsgooglecom/specimen/Righteouscategory=Display)
+ }
+
 html{
   scroll-behavior: smooth;
 }
@@ -5,12 +10,34 @@ body{
   background-color:#1C1C1C;
 }
 
+header{
+  padding: 1.5%;  
+  font-family: 'Alfa Slab One', cursive;
+  background-color: #4F4F4F;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fixo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.img_logo{
+  width: 20%;
+}
+
 .logo{
   padding-top: 1%;
   padding-bottom: 1%;
 }
 
-.menu,footer{
+footer{
   background-color: rgba(105,105,105,0.3);
   padding: 1.5%;
   font-family: 'Righteous', cursive;
@@ -187,8 +214,9 @@ table{
   font-family:'Mukta', sans-serif;
 }
 
-td{
-  font
+th{
+  font-size: 1.5em ;
+  font-weight: bolder;
 }
 
 td,th{
@@ -212,11 +240,6 @@ td:first-child + td{
 
 audio::-webkit-media-controls-panel{
   background-color:rgba(240, 248, 255, 0.3) !important;
-  }
-
-  @font-face {
-   font-family: specimen/Righteous?category=Display;
-   src:url(://fonts.google.com/specimen/Righteous?category=Display);
   }
 
   .borda_form{
@@ -283,7 +306,7 @@ input[type=submit]:hover {
 }
 
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
 
   .col-25, .col-75, input[type=submit] {
     width: 100%;
@@ -291,10 +314,64 @@ input[type=submit]:hover {
    
   }
 
+  .banner{
+    margin-top: 40%;
+  }
+
+  .logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+  }
+
+  .descer{
+    margin-top: 50%;
+  }
+}
+/*Faz uma alteração quando a tela fica maior que 601px */
+@media screen and (min-width:601px) {
+
+  header{
+    flex-direction: row;
+  }
+
+  .itens_menu{
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    width: 70%;
+
+  }
+
+  .itens_menu ul li {
+        display: inline;
+        margin-left: 1%;
+
+
+  }
+
+  .banner{
+    margin-top: 8%;
+  }
+
+  .logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    width: 30%;
+  }
+
+  .descer{
+    margin-top: 10%;
+  }
+
+    
+}
+
  
 
   
-}
+
  
 
 
